@@ -1,126 +1,85 @@
-body {
-    font-family: Roboto;
-    background: #8E0E00;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #8E0E00, #bb996d);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #896e8b, #d8e3e7);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-  
-  #container {
-    height: 560px;
-    width: 360px;
-    margin: 100px auto;
-    background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-  }
-  
-  h1 {
-    background: #4d7918;
-    color: white;
-    margin: 0;
-    padding: 10px 100px;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: normal;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  
-  p {
-    padding-left: 20px;
-  }
-  
-  form input[type="text"] {
-    width=90px;
-  }
-  
-  input {
-    padding-left: 20px;
-  }
-  
-  #billamt {
-    font-size: 14px;
-    /*color: #2980b9;*/
-    color: #red;
-    background-color: #f7f7f7;
-    width: 60%;
-    padding: 5px 5px 8px 8px;
-  }
-  
-  #billamt:focus {
-    background: #fff;
-    border: 3px solid #2980b9;
-    outline: none;
-  }
-  
-  #peopleamt {
-    width: 60%;
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-    color: #red;
-    background-color: #f7f7f7;
-    font-size: 14px;
-  }
-  
-  .dollarSign {
-    display: inline;
-  }
-  
-  #serviceQual {
-    padding: 13px 13px 20px 20px;
-    margin-left: 20px;
-    font-size: 25px;
-  }
-  
-  button {
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    margin: 30px auto;
-    background: #473fb8;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    font-size: 17px;
-    color: white;
-  }
-  
-  button:hover {
-    background: #63e428;
-    border-bottom-color: #111;
-  }
-  
-  button:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  #totalTip {
-    font-size: 30px;
-    margin-top: 5px;
-    text-align: center;
-  }
-  
-  #totalTip:before {
-    content: "Tip amount";
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-    text-transform: uppercase;
-  }
-  
-  #totalTip sup {
-    font-size: 25px;
-    top: -18px;
-  }
-  
-  #totalTip small {
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-  }
+
+    
+        /* Styling the body element
+        like body color and margin */
+         
+        body {
+            background-color: #d0d4a8;
+            margin: 10%;
+        }
+ 
+        /* Styling the Title and giving
+        shadow to the title */
+        #title {
+            text-align: left;
+            text-shadow: 5px 5px 10px rgb(139, 168, 119);
+            font-size: 7vh;
+        }
+ 
+        /* Setting width and display
+        type of image */
+        img {
+            display: inline-block;
+            align-items: center;
+            border:5px solid rgb(16, 163, 41) ;
+            width: 60%;
+            
+        }
+        
+ 
+        /* Setting font color and font
+        size of the image-caption */
+        #caption {
+            font-size: 17px;
+            align-items: center;
+            font-family: Gill Sans;
+            color: black;
+        }
+ 
+        /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+       
+ 
+        /* Styling the title of the content */
+        h1.title-Kashmir {
+            font-size: 35px;
+            color: rgb(48, 41, 148);
+            text-align: center;
+            text-shadow: 5px 5px 10px rgba(207, 224, 48, 0.781);
+        }
+        h3.places{
+            color: rgb(24, 22, 2);
+        }
+        h2.Gulm{
+            color: rgb(34, 75, 99);
+          text-decoration: underline;
+          text-decoration-color: forestgreen;
+          font-size: 30px;
+        }
+        h2.Dal{
+            color: rgb(39, 92, 122);
+            text-decoration: underline;
+          text-decoration-color: forestgreen;
+          font-size: 30px; 
+        }
+        h2.pahhh{
+            font-style: italic;
+        }
+        h3.top{
+            color: rgb(192, 98, 36);
+            text-decoration: underline;
+          text-decoration-color: rgb(15, 41, 15);
+          font-size: 30px;
+        }
+        strong.chan{
+            color: rgb(45, 29, 59);
+            text-decoration: underline;
+          text-decoration-color: rgb(20, 55, 78);
+          font-size: 30px;
+        }
+ 
+        /* Styling the link provided at the end */
+        #tribute-link {
+            text-decoration: none;
+            color: black;
+        }
